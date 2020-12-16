@@ -1,10 +1,11 @@
 # gcp-cloud-run-demo
 
-## Install and rin the Node.js app locally
+## Install and run the Node.js app locally
 
-npm install
-
-npm start
+```
+$ npm install
+$ npm start
+```
 
 ## Build Docker image with Google Cloud Build
 
@@ -33,7 +34,7 @@ Click on the CREATE blue button and give the service a moment to come up. When y
 
 Deploy a new revision by clicking on the EDIT & DEPLOY NEW VERSION at the top of the page. Then under Advanced settings, got to the VARIABLES tab, and add the the following environmental variable:
 
-Name	Value
-TARGET	<scraly> (you're name)
+Name: TARGET
+Value: <ENTER_YOUR_NAME_HERE>
 
 Click on the DEPLOY blue button. When the new service revision finishes deploying and the new version starts receiving 100% of the traffic, re-test your application.
